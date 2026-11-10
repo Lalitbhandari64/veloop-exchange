@@ -1,5 +1,9 @@
 # VELOOP Rewards — Exchange Center
 
+## Live Demo
+
+[Open the VELOOP Rewards Exchange Center](https://veloop-exchange-lemon.vercel.app/)
+
 A responsive rewards dashboard for converting earned Gems into VEs. Built with React, Vite, Bootstrap, CSS Modules, and Lucide icons.
 
 ## How it works
