@@ -3523,3 +3523,9 @@ section.supportPanel:target {
     transform: none;
   }
 }
+
+@media (max-width: 600px) {
+  .page .conversionGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
