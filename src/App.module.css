@@ -3460,4 +3460,36 @@ section.supportPanel:target {
   }
 }
 
+/* Hero artwork */
+.rewardVisual .heroGemImage,
+.rewardVisual .rewardCoin {
+  scale: 0.9;
+}
 
+/* Conversion card artwork */
+.conversionCard .cardArtwork .cardGemImage {
+  scale: 1.1;
+}
+
+.conversionCard .cardArtwork .cardCoinImage {
+  scale: 0.9;
+}
+
+
+.referenceLogo {
+  display: block;
+  width: 124px;
+  aspect-ratio: 124 / 38;
+  flex-shrink: 0;
+  background-image: url("/Image/exc_design.jpg");
+  background-repeat: no-repeat;
+  background-size: 1006.45% auto;
+  background-position: 2.31% 2.76%;
+  mix-blend-mode: lighten;
+}
+
+@media (max-width: 480px) {
+  .conversionCard .cardArtwork .cardGemImage {
+    scale: 1.02;
+  }
+}

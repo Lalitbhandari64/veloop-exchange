@@ -211,12 +211,12 @@ export default function App() {
 </button>
 
 
-      <div className={styles.drawerBrand}>
-  <span aria-hidden="true">V</span>
-  <div>
-    VELOOP
-    <small>REWARDS</small>
-  </div>
+     <div className={styles.drawerBrand}>
+  <span
+    className={styles.referenceLogo}
+    role="img"
+    aria-label="VELOOP Rewards"
+  />
 </div>
 
 <a href="#overview">
