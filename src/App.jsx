@@ -626,7 +626,7 @@ export default function App() {
 
       <section className={styles.rewardBanner}>
   <div>
-    <h2>The more Gems you have, the beeter the rewards you unlock!</h2>
+    <h2>The more Gems you have, the batter the rewards you unlock!</h2>
     <p>Keep earning and keep growing.</p>
   </div>
 
