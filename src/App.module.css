@@ -3529,3 +3529,29 @@ section.supportPanel:target {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+@media (max-width: 600px) {
+  .page .conversionGrid > .conversionCard {
+    padding: 12px 14px;
+  }
+
+  .page .conversionCard .cardArtwork {
+    height: 64px;
+    min-height: 0;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page .conversionCard .cardArtwork {
+    height: 80px;
+  }
+
+  .page .conversionCard .cardArtwork .cardGemImage,
+  .page .conversionCard .cardArtwork .cardCoinImage {
+    width: 64px;
+    height: 64px;
+    max-width: 30%;
+    object-fit: contain;
+  }
+}
