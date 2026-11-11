@@ -3493,3 +3493,33 @@ section.supportPanel:target {
     scale: 1.02;
   }
 }
+
+
+@media (max-width: 600px) {
+  /* Top bar */
+  .headerActions .topBalance .topGemImage {
+    scale: 1.12 1;
+  }
+
+  .headerActions .topBalance .topCoin {
+    scale: 1.08;
+  }
+
+  /* Available Conversions */
+  .conversionCard .cardArtwork .cardGemImage,
+  .conversionCard .cardArtwork .cardCoinImage {
+    width: clamp(40px, 12vw, 56px);
+    height: clamp(40px, 12vw, 56px);
+    max-width: 32%;
+    object-fit: contain;
+    scale: 1;
+  }
+
+  /* Exchange Rules */
+  .rulesWithArtwork .rulesShield {
+    position: static;
+    display: block;
+    margin: 0 auto 16px;
+    transform: none;
+  }
+}
